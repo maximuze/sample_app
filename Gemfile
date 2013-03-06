@@ -9,9 +9,11 @@ gem 'bootstrap-will_paginate', '0.0.6'
 
 
 group :development, :test do
-  # Arrange for SQLite to be included only in a dev environment to 
-  # prevent potential conflicts with Heroku database
+  # Arrange for SQLite to be included only in a dev and test environment 
+  # to prevent potential conflicts with Heroku database
   gem 'sqlite3', '1.3.5'
+  # Include this in development mode to have access to RSpec-specific
+  # generators, and in test mode to run the tests
   gem 'rspec-rails', '2.11.0'
 end
 
