@@ -18,6 +18,8 @@ group :development, :test do
 end
 
 group :development do
+  # Adds comments containing the structure of the data model, 
+  # to the model file - this shows the attributes of the model
   gem 'annotate', '2.5.0'
 end
 
