@@ -1,6 +1,8 @@
 # Ruby on Rails sample microblogging application
 
-This is a sample application developed with Ruby on Rails. Specifically, this application is a microblogging app that allows you to sign up as a new user, and, once you are signed in, you may perform a variety of tasks, such as:
+This is a sample application developed with Ruby on Rails, based on the Ruby on Rails tutorial
+by Michael Hartl. Specifically, this application is a microblogging app that allows you to 
+sign up as a new user, and, once you are signed in, you may perform a variety of tasks, such as:
 
 1. Compose a micropost (up to 140 characters long, of course)
 2. View your microposts and micropost feed
@@ -17,7 +19,6 @@ Additionally, to spruce up the design, I used Bootstrap, a framework from Twitte
 
 To view the license information for this app, navigate to the license.md file.
 
-Thanks for checking out the app, and let me know if you have any questions, comments, or suggestions on how to improve it.
 
 
 
